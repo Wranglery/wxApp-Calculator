@@ -1,0 +1,69 @@
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.result{
+  flex: 1;
+  background-color: #f3f6fe;
+  position: relative;
+}
+
+.result-num{
+position: absolute;
+font-size: 27pt;
+bottom: 5vh;
+right: 3vw;
+}
+
+.result-op{
+  position: absolute;
+  font-size: 15pt;
+  bottom: 1vh;
+  right: 3vw;
+}
+
+.btns{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 17pt;
+  border-top: 1rpx solid #ccc;
+  border-left: 1rpx solid #ccc;
+}
+
+.btns>view{
+  flex-basis: 25%;
+  display: flex;
+}
+
+.btns>view>view{
+  flex-basis: 25%;
+  border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 设置类btns中最后一个子控件view中的第一个子控件占布局50% */
+.btns>view:last-child>view:first-child{
+  flex-basis: 50%;
+}
+
+/* 设置类btns中第一个子控件view中的第一个子控件的颜色 */
+.btns>view:first-child>view:first-child{
+  color: #f00;
+}
+
+/* 设置类btns中每个子控件view中的第一个子控件的颜色 */
+.btns>view>view:last-child{
+  color: #fc8e00;
+}
+
+.bg{
+  background:#eee ;
+}
+
