@@ -1,5 +1,9 @@
 # wxApp-Calculator
 一个简易的微信小程序版本计算器，功能完善。解决了js中计算器浮点运算不准确的问题，可以进行准确的小数运算。
+<img src="https://github.com/Wranglery/wxApp-Calculator/blob/Calculator/photo2.jpg" width="200" height="300" alt="计算器界面图2"
+align=center/>
+
+<img src="https://github.com/Wranglery/wxApp-Calculator/blob/Calculator/photo1.jpg" width = "200" height = "300" alt="计算器界面图1" align=center />
 
 逻辑比较简单，注释也很详细，适合微信小程序初学的人，用来做第一个项目练手很合适，可以帮助理解事件的处理，以及对项目目录结构的理解。
 
@@ -71,6 +75,9 @@ module.exports = {
 
 }
 ```
- <img src="https://github.com/Wranglery/wxApp-Calculator/blob/Calculator/photo1.jpg" width = "200" height = "300" alt="计算器界面图1" align=center />
+
+
+ 
+ 
 
 
