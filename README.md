@@ -71,6 +71,6 @@ module.exports = {
 
 }
 ```
+ <img src="https://github.com/Wranglery/wxApp-Calculator/blob/Calculator/photo1.jpg" width = "200" height = "300" alt="计算器界面图1" align=center />
 
-![计算器界面图1](https://github.com/Wranglery/wxApp-Calculator/blob/Calculator/photo1.jpg =300*400)
 
