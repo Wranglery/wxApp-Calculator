@@ -72,5 +72,5 @@ module.exports = {
 }
 ```
 
-![计算器界面图1](https://github.com/Wranglery/wxApp-Calculator/blob/Calculator/photo1.jpg=300x)
+![计算器界面图1](https://github.com/Wranglery/wxApp-Calculator/blob/Calculator/photo1.jpg=300*400)
 
